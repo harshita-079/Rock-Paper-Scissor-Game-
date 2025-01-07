@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+h1{
+    font-size: 3rem;
+    background-color: rgb(4, 4, 41);
+    color: white;
+    text-align: center;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 3rem;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+.choice:hover{
+    /* border: 5px solid yellow; */
+    opacity: 0.5;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player{
+    margin-top: 2rem;
+}
+.result{
+    font-size: 3rem;
+    background-color: rgb(4, 4, 41);
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 5rem;
+    font-size: 30px;
+    font-family:sans-serif;
+    
+}
+#playerscore,
+#compscore{
+    padding: 0 50% 0 50%;
+}
