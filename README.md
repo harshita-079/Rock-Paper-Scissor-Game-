@@ -4,7 +4,7 @@ A simple and interactive **Rock Paper Scissors** game built using **HTML5, CSS3,
 
 ## 🚀 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 [https://your-vercel-link.vercel.app](https://rock-paper-scissor-game-mu-five.vercel.app/)
 
 ## ✨ Features
 
